@@ -1,20 +1,20 @@
-<div class="row container flex align-items-center justify-content-center" [ngStyle]="{'backgroundColor':'var(--primary-color)'}">
-    <form class="col-12 md:col-6 lg:col-5 xl:col-4">
-        <p-card header="Tiarg" styleClass="title">
-            <div class="row">
-                <div class="col-12">
+<div class="row container flex align-items-center justify-content-center bg" [ngStyle]="{'backgroundColor':'var(--primary-color)'}">
+    <form class="col-12 md:col-6 lg:col-4 xl:col-3">
+        <p-card header="Tiarg " styleClass="title shadow-8">
+            <div class="row ">
+                <div class="col-10 col-offset-1">
                     <div class="p-inputgroup mb-3">
                         <span class="p-inputgroup-addon"><i class="pi pi-user"></i></span>
                         <input class="w-full" type="text" pInputText placeholder="Ingrese su usuario...">
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-10 col-offset-1">
                     <div class="p-inputgroup mb-3">
                         <span class="p-inputgroup-addon"><i class="pi pi-lock"></i></span>
                         <input class="w-full" type="password" pInputText placeholder="Ingrese su contraseña...">
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-10 col-offset-1">
                     <button pButton type="submit" label="Iniciar sesión" class="p-button-secondary w-full"></button>
                 </div>
             </div>

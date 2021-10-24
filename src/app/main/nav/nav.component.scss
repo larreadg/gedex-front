@@ -1,0 +1,9 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: var(--color-0);
+    border-bottom: 1px solid var(--color-2);
+    padding: 0px 16px;
+}

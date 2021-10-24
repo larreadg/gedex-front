@@ -1,0 +1,193 @@
+[{
+        "label": "FDE",
+        "icon": "pi pw pi-th-large",
+        "items": [{
+                "label": "Tipo de FDE",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Fotos de éxito",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Estados de FDE",
+                "icon": "pi pw pi-angle-right"
+            }
+        ]
+    },
+    {
+        "label": "Datos Maestros",
+        "icon": "pi pw pi-key",
+        "items": [{
+                "label": "Categorías de producto",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Productos & Empaques",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "SKU",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Clientes",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Tipo de Área",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Propietarios de POC",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Estados de POC",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Tipos de POC",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Tipos de POP",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Fotos de Tipo/Tema de POP",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Calidad de productos",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Causas de falta de stock",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Razones de contaminación POC",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Preguntas",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Ítems de preguntas",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Respuestas",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Ítems de respuestas",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Estados de precio",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Fondos por canal",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Grupo de Subcanales",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Subcanales ISSCOM",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Grupo de Acc. a Datos de FDE",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Motivos de No Atención",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Categorías de Fotos del Encuestado",
+                "icon": "pi pw pi-angle-right"
+            }
+        ]
+    },
+    {
+        "label": "Encuestas",
+        "icon": "pi pw pi-check-square",
+        "items": [{
+                "label": "Encuestadores/Supervisores",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Lista de precios",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Asociar FDE",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Asignar Encuestador",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Asignar Supervisor",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Encuestas suspendidas",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Detalle de Asociaciones de FDE",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Notas de Encuestas",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Notas y Fotos del Encuestador",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Simulación de Conformidad",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Resultados de una encuesta en un mapa",
+                "icon": "pi pw pi-angle-right"
+            }
+        ]
+    },
+    {
+        "label": "Multimedia",
+        "icon": "pi pw pi-file",
+        "items": [{
+                "label": "Categorías de Multimedia",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Galería multimedia",
+                "icon": "pi pw pi-angle-right"
+            },
+            {
+                "label": "Categorías de multimedia por FDE",
+                "icon": "pi pw pi-angle-right"
+            }
+        ]
+    },
+    {
+        "label": "Procesos",
+        "icon": "pi pw pi-sliders-h",
+        "items": [{
+            "label": "Ejecución de procesos",
+            "icon": "pi pw pi-angle-right"
+        }]
+    }
+]
