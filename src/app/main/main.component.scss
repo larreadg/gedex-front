@@ -1,3 +1,4 @@
+@import '../../globals.scss';
 .body {
     display: flex;
     height: calc(100vh - 70px);
@@ -8,5 +9,14 @@
         flex: 1;
         background-color: var(--color-0);
         padding: 8px 16px;
+    }
+    .hide {
+        display: none;
+    }
+    .hide-content {
+        display: none;
+        @media screen and (min-width: $medium) {
+            display: initial;
+        }
     }
 }

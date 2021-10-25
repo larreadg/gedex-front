@@ -1,14 +1,17 @@
+@import '../../../globals.scss';
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 70px;
     background-color: var(--color-0);
-    // border-bottom: 1px solid var(--color-2);
     border-bottom: 3px solid var(--primary-color);
     padding: 0px 16px;
     .logo {
-        width: 150px;
+        width: 100px;
         height: auto;
+        @media screen and (min-width: $large) {
+            width: 150px;
+        }
     }
 }

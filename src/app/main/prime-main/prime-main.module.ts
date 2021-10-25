@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {AvatarModule} from 'primeng/avatar';
 import {PanelMenuModule} from 'primeng/panelmenu';
-import {AccordionModule} from 'primeng/accordion';
+import {ButtonModule} from 'primeng/button';
 @NgModule({
   declarations: [],
   imports: [
@@ -11,7 +11,7 @@ import {AccordionModule} from 'primeng/accordion';
   exports: [
     AvatarModule,
     PanelMenuModule,
-    AccordionModule
+    ButtonModule
   ]
 })
 export class PrimeMainModule { }

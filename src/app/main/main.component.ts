@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { isMobile } from '../../globals';
 
 @Component({
   selector: 'app-main',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  toggler: boolean = isMobile();
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  sidebarToggler = (event:any) => {
+    this.toggler = event;
+  }
 }

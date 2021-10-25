@@ -1,7 +1,9 @@
-<app-nav></app-nav>
+<app-nav (sidebar)="sidebarToggler($event)"></app-nav>
 <div class="body">
-    <app-sidebar></app-sidebar>
-    <div class="content">
+    <div [class.hide]="toggler">
+        <app-sidebar></app-sidebar>
+    </div>
+    <div class="content" [class.hide-content]="!toggler">
         <h3>hola</h3>
         <h3>hola</h3>
         <h3>hola</h3>

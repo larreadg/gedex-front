@@ -1,8 +1,12 @@
 <div class="nav">
-    <div>
+    <div class="flex align-items-center">
+        <div>
+            <button *ngIf="toggler" (click)="toggleSidebar()" pButton pRipple type="button" icon="pi pi-bars" class="p-button-rounded p-button-text"></button>
+            <button *ngIf="!toggler" (click)="toggleSidebar()" pButton pRipple type="button" icon="pi pi-align-left" class="p-button-rounded p-button-text"></button>
+        </div>
         <img src="assets/icons/gedex.png" class="logo">
     </div>
     <div>
-        <p-avatar icon="pi pi-user" [style]="{'background-color':'var(--primary-color)', 'color': '#ffffff'}" shape="circle"></p-avatar>
+        <button pButton pRipple type="button" icon="pi pi-cog" class="p-button-rounded p-button-text p-button-secondary"></button>
     </div>
 </div>
