@@ -9,6 +9,6 @@ export class LocalService {
   constructor(private http:HttpClient) { }
 
   getSidebar():Observable<any> {
-    return this.http.get('../../assets/json/sidebar.json');
+    return this.http.get('assets/json/sidebar.json');
   }
 }
