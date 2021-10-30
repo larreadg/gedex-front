@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { isMobile } from '../../globals';
+import { CurrentUser } from '../models/usuario.model';
+import { AuthServiceService } from '../services/auth-service.service';
 
 @Component({
   selector: 'app-main',
@@ -9,8 +11,11 @@ import { isMobile } from '../../globals';
 export class MainComponent implements OnInit {
 
   toggler: boolean = isMobile();
+  currentUser: CurrentUser;
 
-  constructor() { }
+  constructor(private authService: AuthServiceService) { 
+    this.currentUser = this.authService.getUser();
+  }
 
   ngOnInit(): void {
   }

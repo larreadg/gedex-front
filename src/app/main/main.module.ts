@@ -3,15 +3,17 @@ import { CommonModule } from '@angular/common';
 import { MainRoutingModule } from './main-routing.module';
 import { PrimeMainModule } from './prime-main/prime-main.module';
 import { MainComponent } from './main.component';
-import { NavComponent } from './nav/nav.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { NavComponent } from './main-shared/nav/nav.component';
+import { SidebarComponent } from './main-shared/sidebar/sidebar.component';
+import { SidebarItemComponent } from './main-shared/sidebar-item/sidebar-item.component';
 
 
 @NgModule({
   declarations: [
     MainComponent,
     NavComponent,
-    SidebarComponent
+    SidebarComponent,
+    SidebarItemComponent
   ],
   imports: [
     CommonModule,

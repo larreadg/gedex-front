@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {InputTextModule} from 'primeng/inputtext';
+import {BreadcrumbModule} from 'primeng/breadcrumb';
 import {ButtonModule} from 'primeng/button';
+import {InputTextModule} from 'primeng/inputtext';
 import {CardModule} from 'primeng/card';
 import {ToastModule} from 'primeng/toast';
 
@@ -11,10 +12,11 @@ import {ToastModule} from 'primeng/toast';
     CommonModule
   ],
   exports: [
-    InputTextModule,
+    BreadcrumbModule,
     ButtonModule,
+    InputTextModule,
     CardModule,
     ToastModule
   ]
 })
-export class PrimeAuthorizationModule { }
+export class PrimeClienteModule { }

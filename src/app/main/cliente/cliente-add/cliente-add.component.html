@@ -1,0 +1,84 @@
+<div class="grid">
+    <div class="col-12">
+        <h3 class="mb-0">Agregar Cliente</h3>
+    </div>
+    <div class="col-12">
+        <p-breadcrumb [model]="items"></p-breadcrumb>
+    </div>
+    <div class="col-12">
+        <p-card>
+            <div class="grid">
+                <form [formGroup]="form" (ngSubmit)="guardarCliente()" class="col-12">
+                    <div class="grid">
+                        <div class="col-12 md:col-6 lg:col-8">
+                            <div class="p-field">
+                                <label for="nombre">Nombre Empresa/Negocio (<span>*</span>)</label>
+                                <input id="nombre" type="text" class="w-full" pInputText formControlName="nombre" name="nombre" placeholder="Ingrese nombres de la empresa...">
+                            </div>
+                        </div>
+                        <div class="col-12 md:col-6 lg:col-4">
+                            <div class="p-field">
+                                <label for="ruc">RUC (<span>*</span>)</label>
+                                <input id="ruc" type="text" class="w-full" pInputText formControlName="ruc" name="ruc" placeholder="08005465-1">
+                            </div>
+                        </div>
+                        <div class="col-12 md:col-6">
+                            <div class="p-field">
+                                <label for="contacto_mail">Correo electrónico (<span>*</span>)</label>
+                                <input id="contacto_mail" type="email" class="w-full" pInputText formControlName="contacto_email" name="contacto_email" placeholder="empresa@contacto.com">
+                            </div>
+                        </div>
+                        <div class="col-12 md:col-6">
+                            <div class="p-field">
+                                <label for="contacto_telefono">Nro. de Teléfono (<span>*</span>)</label>
+                                <input id="contacto_telefono" type="text" class="w-full" pInputText formControlName="contacto_telefono" name="contacto_telefono" placeholder="Ingrese nro. télefono o celular">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <h3 class="mb-0">Seleccione la dirección de la empresa en el mapa</h3>
+                        </div>
+                        <div class="col-12 md:col-6 lg:col-8">
+                            <div class="p-field">
+                                <label for="direccion">Dirección (<span>*</span>)</label>
+                                <input id="direccion" type="text" class="w-full" pInputText formControlName="direccion" name="direccion">
+                            </div>
+                        </div>
+                        <div class="col-12 md:col-6 lg:col-4">
+                            <div class="p-field">
+                                <label for="codigoPostal">Codigo Postal</label>
+                                <input id="codigoPostal" type="text" class="w-full" pInputText formControlName="codigoPostal" name="codigoPostal">
+                            </div>
+                        </div>
+                        <div class="col-12 md:col-6">
+                            <div class="p-field">
+                                <label for="ciudad">Ciudad (<span>*</span>)</label>
+                                <input id="ciudad" type="text" class="w-full" pInputText formControlName="ciudad" name="ciudad">
+                            </div>
+                        </div>
+                        <div class="col-12 md:col-6">
+                            <div class="p-field">
+                                <label for="departamento">Departamento (<span>*</span>)</label>
+                                <input id="departamento" type="text" class="w-full" pInputText formControlName="departamento" name="departamento">
+                            </div>
+                        </div>
+                        <div class="col-12 md:col-6">
+                            <div class="p-field">
+                                <label for="pais">País (<span>*</span>)</label>
+                                <input id="pais" type="text" class="w-full" pInputText formControlName="pais" name="pais">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div id="locationPicker" style="height: 400px;"></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="flex justify-content-end">
+                                <button pButton pRipple type="submit" label="Guardar" icon="pi pi-check" class="p-button-success"></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </p-card>
+    </div>
+</div>
+<p-toast key="cliente-add"></p-toast>

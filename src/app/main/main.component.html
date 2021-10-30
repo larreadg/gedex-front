@@ -1,63 +1,9 @@
-<app-nav (sidebar)="sidebarToggler($event)"></app-nav>
+<app-nav (sidebar)="sidebarToggler($event)" [user]="currentUser"></app-nav>
 <div class="body">
     <div [class.hide]="toggler">
         <app-sidebar></app-sidebar>
     </div>
     <div class="content" [class.hide-content]="!toggler">
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
-        <h3>hola</h3>
         <router-outlet></router-outlet>
     </div>
 </div>

@@ -11,4 +11,7 @@ export class LocalService {
   getSidebar():Observable<any> {
     return this.http.get('assets/json/sidebar.json');
   }
+  getLocation(lat:string, lon:string):Observable<any> {
+    return this.http.get(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`);
+  }
 }

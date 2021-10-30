@@ -5,8 +5,14 @@ import { MainComponent } from './main.component';
 const routes: Routes = [
   {
     path: '',
-    component: MainComponent
-  }
+    component: MainComponent,
+    children: [
+      {
+        path: 'clientes',
+        loadChildren: () => import('./cliente/cliente.module').then(m => m.ClienteModule)
+      }
+    ]
+  },
 ];
 
 @NgModule({

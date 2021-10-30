@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
-import { LocalService } from '../../services/local.service';
+import { LocalService } from '../../../services/local.service';
 
 @Component({
   selector: 'app-sidebar',
