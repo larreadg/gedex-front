@@ -5,6 +5,7 @@ import {ButtonModule} from 'primeng/button';
 import {InputTextModule} from 'primeng/inputtext';
 import {CardModule} from 'primeng/card';
 import {ToastModule} from 'primeng/toast';
+import {TooltipModule} from 'primeng/tooltip';
 
 @NgModule({
   declarations: [],
@@ -16,7 +17,8 @@ import {ToastModule} from 'primeng/toast';
     ButtonModule,
     InputTextModule,
     CardModule,
-    ToastModule
+    ToastModule,
+    TooltipModule
   ]
 })
 export class PrimeClienteModule { }

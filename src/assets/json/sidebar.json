@@ -5,6 +5,11 @@
     },
     {
         "label": "Clientes",
+        "icon": "pi pw pi-map-marker",
+        "routerLink": "/clientes"
+    },
+    {
+        "label": "Agentes",
         "icon": "pi pw pi-users",
         "routerLink": "/clientes"
     }

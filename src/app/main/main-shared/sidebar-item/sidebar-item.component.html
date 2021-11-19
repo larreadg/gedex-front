@@ -1,8 +1,8 @@
 <div class="item" *ngFor="let i of items" [routerLink]="i.routerLink">
-    <div class="mx-1">
+    <div class="ml-1 mr-2">
         <p-avatar icon="{{i.icon}}" styleClass="p-mr-2" [style]="{'background-color': 'var(--primary-color)', 'color': '#ffffff'}" shape="circle"></p-avatar>
     </div>
-    <div class="inter">
+    <div class="inter text">
         {{i.label}}
     </div>
 </div>
